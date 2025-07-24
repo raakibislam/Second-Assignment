@@ -1,0 +1,66 @@
+/* font */
+
+.work-sans-inter,.home {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+/* navbar */
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px  150px 114px;
+}
+.nav,ul{
+    display: flex;
+}
+.nav,li{
+    list-style: none;
+    margin: 10px;
+}
+nav,li,a{
+    text-decoration: none;
+    color: #8987A1;
+}
+.home{
+    font-weight: bold;
+    color: #252432;
+}
+.cart{
+    color: #252432;
+}
+
+/* .section-container */
+
+.section-container{
+    
+    display: flex;
+    padding: 0px 150px 221px;
+    margin: 0 auto ;
+    align-items: end;
+}
+.big-work-sans-inter{
+    font-size: 65px;
+    font-weight: bold;
+    padding-right: 250px;
+}   
+/* shared */
+.orange-work-sans-inter{
+    color: #E95A08;
+}
+.small{
+    color:rgba(0, 0, 0, 0.5) ;
+    margin-top: -80px;
+    padding: 13px 0px 0px;
+}
+/* card-section */
+.card-section{
+   text-align: center;
+}
+.our{
+    color:#E95A08;
+}
+.small-two{
+    color:rgba(0, 0, 0, 0.5) ;
+}
