@@ -1,6 +1,12 @@
 /* font */
 
-.work-sans-inter,.home {
+.work-sans-nato-serif,.home,.title-work-sans-inter,.price {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.work-sans-inter,.add-to-cart-work-sans-inter{
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
@@ -36,31 +42,69 @@ nav,li,a{
 .section-container{
     
     display: flex;
-    padding: 0px 150px 221px;
+    padding: 0px 150px  120px 221px;
     margin: 0 auto ;
     align-items: end;
 }
-.big-work-sans-inter{
+.big-work-sans-nato-serif{
     font-size: 65px;
     font-weight: bold;
     padding-right: 250px;
 }   
 /* shared */
-.orange-work-sans-inter{
+.orange-work-nato-serif{
     color: #E95A08;
 }
-.small{
+.small-work-sans-inter{
     color:rgba(0, 0, 0, 0.5) ;
+     font-size: 22px;
     margin-top: -80px;
     padding: 13px 0px 0px;
 }
 /* card-section */
-.card-section{
-   text-align: center;
+.card-section{   
+    text-align: center;
+   padding: 0px 150px  120px 221px;
+   
 }
-.our{
+.our-work-sans-nato-serif{
     color:#E95A08;
+    font-weight: bold;
+    font-size: 50px;
 }
-.small-two{
+.plants-work-sans-nato-serif{
+    font-weight: bold;
+    font-size: 50px;
+}
+.small-two-work-sans-inter{
     color:rgba(0, 0, 0, 0.5) ;
+    margin: 0px 50px 20px 10px;
+    text-align: center;
+    font-size: 22px;
+}
+
+/* .card-container */
+
+.card-container,.card-container2{
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   gap: 20px;
+   padding: 20px;
+}
+
+.title-work-sans-inter{
+    font-size:22px;
+    font-weight: 500; 
+}
+.price{
+    font-weight: bold;
+    font-size: 22px;
+}
+.add-to-cart-work-sans-inter{
+    color: #FFFFFF ;
+    background-color: #E95A08;
+    border: none;
+    padding: 10px 20px;
 }
