@@ -60,6 +60,10 @@ nav,li,a{
     margin: 0 auto ;
     align-items: end;
 }
+.section-container img{
+  border: none;
+  border-radius: 5px;
+}
 .big-work-sans-nato-serif{
     font-size: 65px;
     font-weight: bold;
@@ -123,8 +127,7 @@ nav,li,a{
     padding: 10px 20px; 
     margin-left: 65px;
     border: none;
-    
-    
+ 
 }
 .title-work-sans-inter{
     font-size:22px;
@@ -160,6 +163,8 @@ nav,li,a{
   display: block;
   width: 100%;
   height: auto;
+  border: none;
+  border-radius: 5px;
 }
 
 .badge {
@@ -235,12 +240,14 @@ nav,li,a{
 }
 
 /* deal section */
-    .latest-work-sans-nato-serif{
+    /* .latest-work-sans-nato-serif{
+        max-width: 1140px;
         color: #E95A08;
         font-weight: bold;
         font-size: 50px ;
         margin-bottom: 20PX;
-        text-align: centergit ;
+        padding: 20px 20px 20px ;
+
     }
     .deals-work-sans-nato-serif{
         font-weight: bold;
@@ -249,28 +256,174 @@ nav,li,a{
     .latest-deals{
         justify-content: center;
         text-align: center;
+        padding: 84px 276px 276px
+        116px ; 
+    }
+    .para-small-work-sans-inter{
+    color:rgba(0, 0, 0, 0.5) ;
+     font-size: 22px;
+     margin-top: 10px;
+    } */
+
+     .latest-deals{
+      max-width: 1140px;
+      margin: auto;
+      text-align: center;
+     }
+
+
+    .latest-work-sans-nato-serif{
+      max-width: 1140px;
+      color: #E95A08;
+      font-weight: bold;
+        font-size: 50px ;
+      margin: auto;
+      text-align: center;
     }
 
+    .deals-work-sans-nato-serif {
+      font-weight: bold;
+      font-size: 50px ;
+      margin-bottom: 10px;
+    }
+.para-small-work-sans-inter{
+    color:rgba(0, 0, 0, 0.5) ;
+     font-size: 22px;
+}
+    
+    .deals-container {
+      max-width: 1140px;
+      display: flex;
+      justify-content: center;
+      margin: auto;
+      display: flex;
+      gap: 16px;
+    }
+      
+    .left-cards {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      width: 35%;
+    }
+
+    .right-card {
+      width: 65%;
+      position: relative;
+      height: 423px;
+      border-radius: 16px;
+      overflow: hidden;
+    }
+
+    .card {
+      position: relative;
+      height: 200px;
+      border-radius: 16px;
+      overflow: hidden;
+    }
+
+    .card img, .right-card img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .overlay {
+      position: absolute;
+      inset: 0;
+      background-color: rgba(0, 0, 0, 0.3);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-align: center;
+    }
+
+    .overlay p {
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .overlay button {
+      margin-top: 8px;
+      background: none;
+      border: none;
+      color: white;
+      text-decoration: underline;
+      cursor: pointer;
+      font-size: 14px;
+    }
+
+    .right-card .overlay p {
+      font-size: 26px;
+    }
+
+    .right-card .overlay button {
+      font-size: 16px;
+    }
+
+    
 /* join section */
 
 
 .join{
     max-width: 1140px;
-    margin: 0 auto;
     background-image: url("assets/news-letter-bg.png");
-    background-repeat: none;
+    margin: 80px auto; 
+    padding: 150px;
+    background-repeat: no-repeat;
     background-size: cover;
-    padding: 150px 150px;
+    background-position: center center;
+    display: flex;
     justify-content: center;
-    justify-items: center;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
 }
 
-.write-email{
+.write-email {
+    width: 300px;
+    padding: 5px 15px;
+    border: none;
+    outline: none; 
+  
+}
+
+.joined-work-sans-nato-serif {
+    text-align: center;
+    justify-items: center;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 20px; 
+}
+
+.input-field {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap; 
+}
+
+.btn {
+    color: #FFFFFF;
+    background-color: #E95A08;
+    padding: 5px 30px;
+    border: none;
+  
+    cursor: pointer; 
+    transition: background-color 0.3s;
+}
+
+
+
+  .write-email{
    width: 300px;
     padding: 5px 15px;
-    border: none;}
+    border: none;} 
 
-.joined-work-sans-nato-serif{
+/* .joined-work-sans-nato-serif{
     text-align: center;
     color: #FFFFFF ;
     font-weight: bold;
@@ -287,7 +440,7 @@ nav,li,a{
      padding: 5px 30px;
      border: none;
      
-}
+} */ */
 
 /* MEDIA QUARY */
 
