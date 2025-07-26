@@ -490,41 +490,40 @@ nav,li,a{
 /* For tablets and smaller screens */
 @media (max-width: 768px) {
   .container {
-    flex-direction: column;       /* Stack header items vertically */
+    flex-direction: column;      
     padding: 20px;
   }
   .nav {
-    flex-direction: column;       /* Menu links stack vertically */
+    flex-direction: column;       
     gap: 15px;
   }
   .section-container {
-    flex-direction: column;       /* Stack hero text and image */
+    flex-direction: column;       
     padding: 0 20px;
     align-items: center;
   }
   .big-work-sans-nato-serif {
-    font-size: 40px;              /* Smaller heading text */
+    font-size: 40px;             
     padding-right: 0;
     text-align: center;
   }
   .small-work-sans-inter {
-    font-size: 16px;              /* Smaller paragraph text */
+    font-size: 16px;            
     margin-top: 0;
     text-align: center;
   }
   .card-container, .card-container2 {
-    flex-wrap: wrap;              /* Allow cards to wrap to new lines */
-    justify-content: center;
+    flex-wrap: wrap;              
     gap: 15px;
     padding: 10px;
   }
   .card-one {
-    flex: 1 1 45%;                /* Each card takes about half width */
+    flex: 1 1 45%;                
     max-width: 45%;
     margin-bottom: 20px;
   }
   .certification {
-    flex-direction: column;       /* Stack certification section vertically */
+    flex-direction: column;       
     padding: 20px;
     gap: 20px;
   }
@@ -593,4 +592,101 @@ nav,li,a{
     height: auto;
     display: block;
   }
+}
+
+@media (max-width: 768px) {
+
+  
+  html, body {
+    overflow-x: hidden;
+  }
+
+
+  .deals-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 0 15px;
+  }
+
+  .left-cards,
+  .right-card {
+    width: 100%;
+  }
+
+  .card {
+    height: auto;
+  }
+
+  .right-card {
+    height: 300px;
+  }
+
+  .right-card .overlay p {
+    font-size: 20px;
+  }
+
+  .right-card .overlay button {
+    font-size: 14px;
+  }
+
+  
+  .join {
+    padding: 60px 20px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .input-field {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .write-email {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .joined-work-sans-nato-serif {
+    font-size: 28px;
+  }
+
+
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 40px 20px;
+  }
+
+  .footer-left, 
+  .footer-links-small-two-work-sans-inter {
+    width: 100%;
+    text-align: center;
+  }
+
+  .footer-logo {
+    margin: 0 auto 15px;
+  }
+
+  .footer-links-small-two-work-sans-inter {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .footer-links-small-two-work-sans-inter .column {
+    align-items: center;
+  }
+
+  .footer-social {
+    justify-content: center;
+  }
+
+
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
 }
