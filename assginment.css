@@ -179,7 +179,7 @@ nav,li,a{
 .badge img {
   width: 100%;
   height: 100%;
-  object-fit: contain;  /* ✅ Keeps badge from distorting */
+  object-fit: contain;  
   animation: spin 3s linear infinite;
   transform-origin: center center;
 }
